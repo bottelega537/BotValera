@@ -1,1 +1,1 @@
-web: build/install/mybot/bin/mybot
+web: build/install/kotlin/bin/kotlin
