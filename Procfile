@@ -1,1 +1,1 @@
-bot: java -jar build/libs/com_gmail_bottelega537-1.0-all.jar
+web: java $JAVA_OPTS -cp build/staging:build/staging/* Main
