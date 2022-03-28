@@ -1,1 +1,1 @@
-bot: java -jar build/libs/telegram_bot-1.0-all.jar
+web: build/install/mybot/bin/mybot

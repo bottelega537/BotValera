@@ -19,8 +19,6 @@ dependencies {
     implementation 'org.telegram:telegrambots:5.7.1'
 }
 
-shadowJar {
-    mergeServiceFiles()
-    exclude 'META-INF/*.DSA'
-    exclude 'META-INF/*.RSA'
+task stage {
+    dependsOn installDist
 }
