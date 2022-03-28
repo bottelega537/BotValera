@@ -1,1 +1,1 @@
-bot: java -Xmx300m -jar build/libs/*.jar
+bot: java -Xmx300m -Xss512k -XX:CICompilerCount=2 -Dfile.encoding=UTF-8 -jar build/libs/*.jar
