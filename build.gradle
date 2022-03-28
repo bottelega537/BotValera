@@ -14,31 +14,15 @@ repositories {
 }
 
 dependencies {
-    testImplementation 'org.jetbrains.kotlin:kotlin-test:1.6.10'
     implementation 'org.telegram:telegrambots:5.7.1'
     implementation 'org.slf4j:slf4j-log4j12:1.7.36'
     implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10'
-}
-
-test {
-    useJUnitPlatform()
 }
 
 compileKotlin {
     kotlinOptions.jvmTarget = "1.8"
 }
 
-compileTestKotlin {
-    kotlinOptions.jvmTarget = "1.8"
-
-}
-
 application {
     project.setProperty("mainClassName", "Main.kt")
-}
-
-shadowJar {
-    mergeServiceFiles()
-    exclude 'META-INF/*.DSA'
-    exclude 'META-INF/*.RSA'
 }
