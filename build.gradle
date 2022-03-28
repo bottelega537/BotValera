@@ -8,13 +8,14 @@ group = 'com.gmail.bottelega537'
 version = '1.0'
 mainClassName = 'Main'
 
-sourceCompatibility = 10
+sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
     implementation 'org.telegram:telegrambots:5.7.1'
 }
 
