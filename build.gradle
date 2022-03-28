@@ -24,6 +24,11 @@ compileKotlin {
     kotlinOptions.jvmTarget = "1.8"
 }
 
+jar {
+    setArchivesBaseName("telegram_bot")
+    setVersion("1.0")
+}
+
 shadowJar {
     mergeServiceFiles()
     exclude 'META-INF/*.DSA'
