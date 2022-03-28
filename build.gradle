@@ -1,7 +1,7 @@
 plugins {
     id 'org.jetbrains.kotlin.jvm' version '1.6.20-RC2'
     id 'application'
-    id 'com.github.johnrengelman.shadow' version '2.0.4'
+    id 'com.github.johnrengelman.shadow' version '6.0.0'
 }
 
 group = 'com.gmail.bottelega537'
@@ -34,7 +34,7 @@ compileTestKotlin {
 }
 
 application {
-    getMainClass().set('MainKt')
+    project.setProperty("mainClassName", "Main.kt")
 }
 
 shadowJar {
