@@ -1,0 +1,3 @@
+log-level: ERROR
+modules:
+  - org.telegram:telegrambots:5.7.1

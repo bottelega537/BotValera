@@ -1,1 +1,1 @@
-bot: java -jar build/libs/com.gmail.bottelega537-1.0-all.jar
+bot: java -jar build/libs/com_gmail_bottelega537-1.0-all.jar
