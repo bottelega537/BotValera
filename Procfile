@@ -1,1 +1,1 @@
-bot: java -jar build/libs/*.jar
+bot: java -Xmx300m -jar build/libs/Main.jar
