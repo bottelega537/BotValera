@@ -19,6 +19,20 @@ dependencies {
     implementation 'org.telegram:telegrambots:5.7.1'
 }
 
-task stage {
-    dependsOn installDist
+task stage(type: Copy, dependsOn: [clean, build]) {
+    from jar.archivePath
+    into project.rootDir
+    rename {
+        'BotValera.jar'
+    }
+}
+stage.mustRunAfter(clean)
+
+clean  {
+    project.file('BotValera.jar').delete()
+}
+
+jar {
+    baseName = 'BotValera'
+    version = '1.0.0'
 }

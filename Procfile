@@ -1,1 +1,1 @@
-web: java -Xms150M -jar target/"MainKt.jar"
+web: java $JAVA_OPTS -jar BotValera.jar
