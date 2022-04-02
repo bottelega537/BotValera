@@ -1,1 +1,1 @@
-web: java -Xms150M -jar target/"BotValera.jar"
+web: java -Xms150M -jar target/"MainKt.jar"
