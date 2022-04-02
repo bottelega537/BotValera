@@ -1,1 +1,1 @@
-web: java -jar target/BotValera-1.0.0.jar
+web: java -Xms150M -jar target/BotValera.jar
