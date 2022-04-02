@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -jar BotValera.jar
+web: java $JAVA_OPTS -jar build/libs/*.jar

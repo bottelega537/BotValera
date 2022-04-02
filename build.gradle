@@ -33,6 +33,5 @@ clean  {
 }
 
 jar {
-    baseName = 'BotValera'
-    version = '1.0.0'
+    enabled = false
 }
