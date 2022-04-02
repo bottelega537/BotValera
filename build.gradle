@@ -5,7 +5,7 @@ plugins {
 }
 
 group = 'com.gmail.bottelega537'
-version = '1.0'
+version = '1.0.0'
 mainClassName = 'Main'
 
 sourceCompatibility = 1.8

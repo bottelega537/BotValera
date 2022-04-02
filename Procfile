@@ -1,1 +1,1 @@
-web: build/install/kotlin/bin/kotlin
+web: java -jar target/BotValera-1.0.0.jar
